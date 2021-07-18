@@ -1,14 +1,14 @@
 name: my-first-shiny
-title:
+title: my-first-shiny
 username:
 account: jonas-proj
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
-appId: 4397071
-bundleId: 4831120
+appId: 4397093
+bundleId: 4831153
 url: https://jonas-proj.shinyapps.io/my-first-shiny/
-when: 1626611941.60774
-lastSyncTime: 1626611941.60776
+when: 1626612961.01769
+lastSyncTime: 1626612961.0177
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: .Renviron
