@@ -1,7 +1,7 @@
 library(markdown)
 library(shiny)
+library(shinythemes)
 library(rsconnect)
-
 
 myUI <- shinyUI (
   navbarPage("BlueBox App",
