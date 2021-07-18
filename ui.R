@@ -1,8 +1,10 @@
 library(markdown)
 library(shiny)
+library(rsconnect)
 
 
-navbarPage("BlueBox App",
+myUI <- shinyUI (
+  navbarPage("BlueBox App",
            selected = "Dashboard",
            fluid = TRUE,
            theme = shinytheme("darkly"),
@@ -48,4 +50,4 @@ navbarPage("BlueBox App",
                       )
            )
 )
-
+)

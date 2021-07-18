@@ -1,6 +1,4 @@
-source("scripts/simple-plot.R")
-
-function(input, output, session) {
+myserver <- function(input, output, session) {
   output$plot <- renderPlot({
     simple_plot(cars, input)
   })
